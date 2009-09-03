@@ -2,12 +2,12 @@
 
 h1. Bort
 
-This is a fork of the Bort project - updated to work with Rails 2.3.2, and given many improvements around OpenID support. You can see a running demo of this code here: "http://auth-staging.heroku.com/":http://auth-staging.heroku.com/
+This is a fork of a fork of the Bort project that I've tailored a bit to my personal liking. It supports Rails 2.3.2 and includes cucumber, rspec 1.2.8, webrat, and haml. However, I haven't yet converted the original bort stories to cucumber features.
 
 Bort is a base Rails 2.3 application that makes creating new projects easier and faster.
-
-You can see our continuous integration status here: "http://runcoderun.com/lukebayes/bort":http://runcoderun.com/lukebayes/bort
 
 h2. Credits
 
 _Bort was originally developed by "Fudge Studios":http://www.fudgestudios.com, "Jim Neath":http://jimneath.org and "Matt Hall":http://matthall.wordpress.com_
+
+_The fork of Bort supporting Rails 2.3 that this version is based on is by Luke Bayes._
