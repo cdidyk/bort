@@ -48,10 +48,11 @@ Rails::Initializer.run do |config|
   config.gem 'mislav-will_paginate', :version => '2.3.6', :lib => 'will_paginate', :source => 'http://gems.github.com'
   config.gem 'ruby-openid', :version => '>= 2.0.4', :lib => 'openid'
   # config.gem 'facebooker', :version => '>= 1.0.31'
-  
-  # These cause problems with irb. Left in for reference
-  # config.gem 'rspec-rails', :lib => 'spec/rails', :version => '1.1.11'
-  # config.gem 'rspec', :lib => 'spec', :version => '1.1.11'
+  config.gem 'rspec-rails', :lib => false, :version => '1.2.7.1'
+  config.gem 'rspec', :lib => false, :version => '1.2.8'
+  config.gem 'cucumber'
+  config.gem 'webrat'
+  config.gem 'haml'
   
   # Only load the plugins named here, in the order given. By default, all plugins 
   # in vendor/plugins are loaded in alphabetical order.
