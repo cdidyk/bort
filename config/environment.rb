@@ -47,7 +47,6 @@ Rails::Initializer.run do |config|
   config.gem 'rubyist-aasm', :lib => 'aasm', :source => 'http://gems.github.com', :version => '2.0.2'
   config.gem 'mislav-will_paginate', :version => '2.3.6', :lib => 'will_paginate', :source => 'http://gems.github.com'
   config.gem 'ruby-openid', :version => '>= 2.0.4', :lib => 'openid'
-  # config.gem 'facebooker', :version => '>= 1.0.31'
   config.gem 'rspec-rails', :lib => false, :version => '1.2.7.1'
   config.gem 'rspec', :lib => false, :version => '1.2.8'
   config.gem 'cucumber'

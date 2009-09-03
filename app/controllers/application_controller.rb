@@ -9,9 +9,6 @@ class ApplicationController < ActionController::Base
 
   filter_parameter_logging :password, :password_confirmation
   rescue_from ActiveRecord::RecordNotFound, :with => :record_not_found
-
-  # before_filter :set_facebook_session
-  # helper_method :facebook_session
   
   def current_user
     return nil if session[:user_id].nil?
